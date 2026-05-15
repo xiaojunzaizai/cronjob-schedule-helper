@@ -1,0 +1,13 @@
+services:
+  cron-schedule-helper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cron-schedule-helper
+    ports:
+      - "3002:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+    restart: unless-stopped

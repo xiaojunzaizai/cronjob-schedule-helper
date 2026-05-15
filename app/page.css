@@ -1,0 +1,140 @@
+.page-container {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #f5f7fa 0%,
+    #ffffff 45%,
+    #eef2f7 100%
+  );
+  padding: 32px;
+}
+
+.page-wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero-section {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.apple-tag {
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.main-title {
+  font-size: 48px !important;
+  margin-top: 24px !important;
+  margin-bottom: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: -1.5px;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #666;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.apple-card {
+  border-radius: 28px !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.08) !important;
+  background: rgba(255, 255, 255, 0.82) !important;
+  backdrop-filter: blur(20px);
+}
+
+.cron-preview {
+  margin-top: 10px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: #111;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family:
+    SFMono-Regular,
+    Consolas,
+    Menlo,
+    monospace;
+}
+
+.simulation-empty {
+  height: 320px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #f7f7f7 0%, #ffffff 100%);
+  border: 1px dashed #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #999;
+  padding: 24px;
+}
+
+.simulation-item {
+  padding: 16px;
+  border-radius: 18px;
+  background: #f5f5f7;
+  font-family:
+    SFMono-Regular,
+    Consolas,
+    Menlo,
+    monospace;
+}
+
+.primary-btn {
+  border-radius: 999px !important;
+  background: #0071e3 !important;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.input-top {
+  margin-top: 8px;
+}
+
+.simulation-card {
+  min-height: 520px;
+}
+
+.cron-field-card {
+  border-radius: 20px !important;
+  background: rgba(245, 245, 247, 0.8) !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.cron-part-tag {
+  width: fit-content;
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-family: SFMono-Regular, Consolas, Menlo, monospace;
+  font-size: 14px;
+}
+
+.cron-example-text {
+  margin-top: 12px;
+  color: #666;
+  font-size: 14px;
+}
+
+.input-prefix {
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  background: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  color: #666;
+  font-size: 14px;
+}
