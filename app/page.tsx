@@ -16,7 +16,7 @@ import {
   Typography,
 } from "antd";
 import {
-  AppleOutlined,
+  ClockCircleOutlined,
   CheckCircleOutlined,
   PlayCircleOutlined,
 } from "@ant-design/icons";
@@ -386,12 +386,12 @@ export default function CronSchedulePage() {
       <div className="page-wrapper">
         <Space orientation="vertical" size={28} className="full-width">
           <div className="hero-section">
-            <Tag icon={<AppleOutlined />} className="apple-tag">
+            <Tag icon={<ClockCircleOutlined />} className="apple-tag">
               Cron Schedule Helper
             </Tag>
 
             <Title className="main-title">
-              CronJob Schedule 辅助生成和验证
+              CronJob Schedule 辅助生成和验证工具
             </Title>
 
             <Paragraph className="sub-title">
